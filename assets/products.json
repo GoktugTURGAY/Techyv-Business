@@ -1,0 +1,79 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "iPhone 15 Pro",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "price": 999.99,
+      "icon": "📱",
+      "features": [
+        "6.1-inch OLED Display",
+        "A17 Pro Chip",
+        "Triple Camera System",
+        "5G Support"
+      ],
+      "description": "Apple's premium smartphone featuring a stunning OLED display, powerful A17 Pro chip, advanced triple-camera system, and lightning-fast 5G connectivity."
+    },
+    {
+      "id": 2,
+      "productName": "Galaxy S24 Ultra",
+      "category": "Smartphone",
+      "brand": "Samsung",
+      "price": 1199.99,
+      "icon": "📱",
+      "features": [
+        "6.8-inch Dynamic AMOLED",
+        "Snapdragon 8 Gen 3",
+        "200MP Main Camera",
+        "S-Pen Support"
+      ],
+      "description": "Samsung’s flagship device with a large Dynamic AMOLED screen, ultra-high-resolution 200MP camera, top-tier Snapdragon processor, and built-in S-Pen functionality for creative users."
+    },
+    {
+      "id": 3,
+      "productName": "MacBook Air M3",
+      "category": "Laptop",
+      "brand": "Apple",
+      "price": 1299.99,
+      "icon": "💻",
+      "features": [
+        "13.6-inch Retina Display",
+        "Apple M3 Chip",
+        "Fanless Design",
+        "18-Hour Battery Life"
+      ],
+      "description": "Lightweight and powerful, the MacBook Air M3 offers a fanless, silent design, a beautiful Retina display, and all-day battery life powered by Apple's cutting-edge M3 chip."
+    },
+    {
+      "id": 4,
+      "productName": "Dell XPS 15",
+      "category": "Laptop",
+      "brand": "Dell",
+      "price": 1499.99,
+      "icon": "💻",
+      "features": [
+        "15.6-inch OLED Display",
+        "Intel Core i7-13700H",
+        "NVIDIA RTX 4060",
+        "512GB SSD"
+      ],
+      "description": "A high-performance laptop with a vivid OLED display, powerful Intel i7 CPU, RTX 4060 graphics for creators and gamers, and fast 512GB SSD storage."
+    },
+    {
+      "id": 5,
+      "productName": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "brand": "Sony",
+      "price": 399.99,
+      "icon": "🎧",
+      "features": [
+        "Active Noise Cancelling",
+        "30-Hour Battery Life",
+        "Touch Controls",
+        "Voice Assistant Support"
+      ],
+      "description": "Industry-leading noise-canceling headphones with long battery life, intuitive touch controls, and seamless voice assistant integration for immersive audio on the go."
+    }
+  ]
+}

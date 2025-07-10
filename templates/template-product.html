@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>{%ICON%} {%PRODUCTNAME%}</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+      *,
+      :before,
+      :after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --text-color: #e6e6eb;
+        --bg-color: #000036;
+        --bg-color-dark: #00001a;
+        --rounded-sm: 5px;
+        --rounded-xs: 3px;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        background-color: var(--bg-color);
+        min-block-size: 100vh;
+        display: grid;
+        place-content: center;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      a {
+        display: inline-block;
+        text-decoration-line: none;
+      }
+
+      .product {
+        position: relative;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        width: 40rem;
+        border-radius: var(--rounded-sm);
+        padding: 6rem 2rem;
+        text-align: center;
+      }
+
+      .product-category {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background-color: darkolivegreen;
+        color: #fff;
+        width: max-content;
+        margin-inline: auto;
+        padding: 0.5rem 1rem;
+        border-radius: var(--rounded-xs);
+        margin-bottom: 0.5rem;
+      }
+
+      .product-title {
+        font-size: 3rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .product-price {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+
+      .product-features {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .product-list {
+        display: grid;
+        gap: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+      }
+
+      .product-description {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        margin-bottom: 1.4rem;
+      }
+
+      .product-link:any-link {
+        font-size: 1.5rem;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        padding: 1.5rem 3rem;
+        font-weight: 500;
+        border-radius: var(--rounded-sm);
+        box-shadow: 0 2px 20px rgba(0, 0, 54, 0.5);
+        transition: all 300ms ease-in-out;
+      }
+
+      .product-link:hover {
+        background-color: var(--bg-color-dark);
+        box-shadow: 0 2px 15px rgba(0, 0, 54, 0.5);
+      }
+
+      .product-home {
+        position: absolute;
+        inset: 20px auto auto 20px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="product">
+      <header class="product-header">
+        <p class="product-category">{%CATEGORY%}</p>
+        <h2 class="product-title">{%ICON%} {%PRODUCTNAME%}</h2>
+
+        <p class="product-price">999 $</p>
+      </header>
+      <section class="product-body">
+        <div class="product-body-top">
+          <h3 class="product-features">Features</h3>
+          <ul class="product-list">
+            <ul class="product-list">
+              <li class="product-item">&mdash; {%PRODUCTFEATURE1%}</li>
+              <li class="product-item">&mdash; {%PRODUCTFEATURE2%}</li>
+              <li class="product-item">&mdash; {%PRODUCTFEATURE3%}</li>
+              <li class="product-item">&mdash; {%PRODUCTFEATURE4%}</li>
+            </ul>
+          </ul>
+        </div>
+
+        <p class="product-description">{%DESCRIPTION%}</p>
+        <a class="product-link" href="#">Add to Cart</a>
+        <a class="product-home" href="/">
+          <i class="fas fa-chevron-left"></i> <span>Homepage</span></a
+        >
+      </section>
+    </article>
+  </body>
+</html>
